@@ -70,7 +70,7 @@ public class EditCommandTest {
     }
 
     /**
-     * Asserts that attempting to construct an add command with the supplied
+     * Asserts that attempting to construct an edit command with the supplied
      * invalid data throws an IllegalValueException
      */
     private void assertConstructingInvalidEditCmdThrowsException(int targetVisibleIndex, String name, String phone,
