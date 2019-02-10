@@ -140,6 +140,18 @@
   delete 1
   list
 
+
+##########################################################
+# test edit command
+##########################################################
+
+  # edit
+  edit 1 Betsy Choo p/1111111 e/benchoo@nus.edu.sg a/222, beta street t/secretive
+  list
+  edit 1 Dickson Ee p/5555555 e/dickson@nus.edu.sg a/444, delta street t/friends
+
+
+
 ##########################################################
 # test clear command
 ##########################################################
